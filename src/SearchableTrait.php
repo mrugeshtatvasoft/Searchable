@@ -1,4 +1,4 @@
-<?php namespace Nicolaslopezj\Searchable;
+<?php namespace mrugeshtatvasoft\Searchable;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;
@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 
 /**
  * Trait SearchableTrait
- * @package Nicolaslopezj\Searchable
+ * @package mrugeshtatvasoft\Searchable
  * @property array $searchable
  * @property string $table
  * @property string $primaryKey

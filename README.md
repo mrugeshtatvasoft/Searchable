@@ -12,7 +12,7 @@ This is not optimized for big searches, but sometimes you just need to make it s
 Simply add the package to your `composer.json` file and run `composer update`.
 
 ```
-"nicolaslopezj/searchable": "1.*"
+"mrugeshtatvasoft/searchable": "1.*"
 ```
 
 # Usage
@@ -20,7 +20,7 @@ Simply add the package to your `composer.json` file and run `composer update`.
 Add the trait to your model and your search rules.
 
 ```php
-use Nicolaslopezj\Searchable\SearchableTrait;
+use mrugeshtatvasoft\Searchable\SearchableTrait;
 
 class User extends \Eloquent
 {
@@ -133,7 +133,7 @@ Here is an example query
 
 #### Eloquent Model:
 ```php
-use Nicolaslopezj\Searchable\SearchableTrait;
+use mrugeshtatvasoft\Searchable\SearchableTrait;
 
 class User extends \Eloquent
 {
@@ -216,4 +216,4 @@ order by `relevance` desc
 
 Anyone is welcome to contribute. Fork, make your changes, and then submit a pull request.
 
-[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://gratipay.com/nicolaslopezj/)
+[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://gratipay.com/mrugeshtatvasoft/)
